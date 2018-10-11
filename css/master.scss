@@ -37,6 +37,7 @@ body, html{
     background: $primaryColor;
     color: $secondaryTextColor;
     font-family: 'Montserrat', sans-serif;
+    min-width: $device-sm;
 }
 
 a{
@@ -314,4 +315,18 @@ article .img-container img{
 
 .btn-outline-info:focus, .btn-outline-info:active{
     box-shadow: 0 0 0 0.2rem rgba(128, 128, 128, 0.25) !important;
+}
+
+
+/** RESPONSIVE **/
+@media (max-width: $device-sm){
+    #mainContent{
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: $device-sm) and (max-width: $device-lg){
+    #mainContent{
+        font-size: .9rem;
+    }
 }
