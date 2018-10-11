@@ -1,12 +1,9 @@
 ## Welcome
 
-### [DEMO](https://sujaykumarh.com/jekyll-theme-carbon)
+###(DEMO)[#]
 
 This is a Dark Jekyll Theme
-
 Inspiration from Mr. Robot Series
-
-Theme idea from <a href="https://themes.gohugo.io/theme/hugo-theme-hello-friend/" target="_blank">Hugo, Hello Friend</a>
 
 
 ## License

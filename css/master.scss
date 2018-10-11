@@ -13,7 +13,7 @@ $secondaryTextColor : #eeeeee;
 
 /** FONTS **/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
 /** VALUES **/
 $navBarSize-lg : 80px;
 $navBarSize-md : 60px;
@@ -39,6 +39,16 @@ body, html{
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    color: $secondaryLightColor;
+}
+
+a:hover{
+    text-decoration: none;
+    outline: none;
+    color: $secondaryColor;
+}
+
 .disableSelector{
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Chrome/Safari/Opera */
@@ -60,13 +70,14 @@ body, html{
     font-weight: bold;
 }
 
-.navbar-toggler{
+.navbar-toggler, .post-url, .category-tag{
     color: $primaryTextColor;
 }
 
 .nav-link a{
     padding: 8px 10px;
     border-radius: 5px;
+    color: $secondaryTextColor;
 }
 
 .nav-link:hover a, .nav-link.active a{
@@ -129,16 +140,6 @@ button, button:focus, button:active, button:hover, a:hover, a:focus, a:active{
     outline: none;
 }
 
-a{
-    color: $primaryTextColor;
-}
-
-a:hover{
-    text-decoration: none;
-    outline: none;
-    color: $secondaryColor;
-}
-
 img{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -182,6 +183,15 @@ hr{
 blockquote{
     margin: 50px;
     border-left: 5px solid rgba(255, 255, 255, 0.35);
+}
+
+blockquote::before{
+    font-family: 'Poppins', sans-serif;
+    font-size: 8rem;
+    float: left;
+    padding: 10px;
+    margin-top: -40px;
+    content: "\201C";
 }
 
 blockquote > *{
