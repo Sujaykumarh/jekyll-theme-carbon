@@ -5,6 +5,11 @@
 This is a Dark Jekyll Theme
 Inspiration from Mr. Robot Series
 
+### Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/Sujaykumarh/jekyll-theme-carbon/master/images/screenshot_1.png)
+
+<br>
 
 ## License
 
@@ -21,3 +26,7 @@ Inspiration from Mr. Robot Series
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+    
+<br>   
+
+Cat Images from [PlaceKitten](https://placekitten.com/) for placeholders
