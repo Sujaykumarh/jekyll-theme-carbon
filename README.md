@@ -1,6 +1,6 @@
 ## Welcome
 
-###(DEMO)[#]
+## [DEMO](https://sujaykumarh.com/jekyll-theme-carbon/)
 
 This is a Dark Jekyll Theme
 Inspiration from Mr. Robot Series
