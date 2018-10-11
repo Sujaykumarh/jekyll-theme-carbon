@@ -1,0 +1,33 @@
+---
+layout: master
+---
+
+<section>
+        <a href="javascript:history.back()" class="d-lg-none btn btn-outline-info">&lt; Back</a>
+        <h1 class="section-title">{{ page.title }}</h1>
+        {% if page.tagline %}
+        <h4 class="section-tagline">{{ page.tagline }}</h4>
+        {% endif %}
+        <div class="section-content">
+            <h6 class="section-post-extra">
+                Posted on: {{ page.date | date_to_string }}
+                <span class="tag-seprator">|</span>
+                {% for tag in page.tags %}
+                    <a href="{{ site.baseurl }}/categories/#{{ tag | slugify }}" class="category-tag text-uppercase"><i class="fas fa-tag"></i>{{ tag }}</a>            
+                {% endfor %}
+            </h6>
+            <div class="section-content text-justify">{{ content }}</div>
+        </div>
+        <div class="row">
+            <p class="col col-6 text-left">
+            {% if page.previous.url %}
+                <a href="{{ site.baseurl }}{{ page.previous.url }}" class="btn btn-outline-info text-left">&lt; Previous Post</a>
+            {% endif %}
+            </p>
+            <p class="col col-6 text-right">
+            {% if page.next.url %}
+                <a href="{{ site.baseurl }}{{ page.next.url }}" class="btn btn-outline-info text-left">Next Post &gt;</a>
+            {% endif %}
+            </p>
+        </div>
+    </section>

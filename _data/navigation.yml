@@ -1,0 +1,12 @@
+- title: Home
+  url: 
+  active: home
+- title: ShowCase
+  url: showcase
+  active: showcase
+- title: Categories
+  url: categories
+  active: categories
+- title: About
+  url: about
+  active: about

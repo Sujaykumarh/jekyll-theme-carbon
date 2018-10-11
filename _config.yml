@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+sass: 
+  style: compresssed
+permalink: pretty
+baseurl: /jekyll-theme-carbon
